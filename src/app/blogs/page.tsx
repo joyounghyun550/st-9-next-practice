@@ -7,7 +7,7 @@ type Blogs = {
   author: string;
   category: string;
   createdAt: number;
-  tags: [];
+  tags: string[];
 };
 
 const Blogs = async () => {
